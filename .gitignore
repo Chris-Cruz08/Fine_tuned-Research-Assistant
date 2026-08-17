@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# uv
+uv.lock
+
+# Data & model artifacts (large, regenerable)
+data/
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+*.gguf
+
+# MLflow
+mlflow/mlruns/*
+!mlflow/mlruns/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
