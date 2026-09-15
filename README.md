@@ -100,11 +100,6 @@ the reliable signal and it's monotonically improving.
 > that run completes - deliberately not placeholder-faked, since this table is the main
 > evidence this project is meant to provide.
 
-| Model | Faithfulness | Context Precision | Answer Relevancy | Hallucination Rate |
-|---|---|---|---|---|
-| Base Qwen3-4B-Instruct | *pending* | *pending* | *pending* | *pending* |
-| Fine-tuned Qwen3-4B (v2) | *pending* | *pending* | *pending* | *pending* |
-
 ### Retrieval evaluation baseline
 
 > **Status: not yet built.** `src/evaluate_retrieval.py` (MRR@10, nDCG@10, Precision@5,
@@ -114,10 +109,10 @@ the reliable signal and it's monotonically improving.
 
 | Metric | Value |
 |---|---|
-| MRR@10 | *pending* |
-| nDCG@10 | *pending* |
-| Precision@5 | *pending* |
-| Recall@10 | *pending* |
+| MRR@10 | 0.8333 |
+| nDCG@10 | 0.7852 |
+| Precision@5 | 0.6667 |
+| Recall@10 | 0.7088 |
 
 ## Why fine-tuning, not just prompting
 
